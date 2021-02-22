@@ -10,7 +10,8 @@ public class WebController {
     @RequestMapping("/")
     @ResponseBody
     public String index() {
-        return "Success!";
+        return "<html><body><div id=\"message\">Success!</div></body></html>";
+
     }
 
 }
